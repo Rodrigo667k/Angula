@@ -1,0 +1,7 @@
+#img-bg{
+    background-image: url("../imagem/pintura.gif");
+    min-height: 17cm;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
