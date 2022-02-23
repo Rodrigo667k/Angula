@@ -1,7 +1,33 @@
+@keyframes bounce {
+    0% , 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    
+}
+
+
+
 #img-bg{
     background-image: url("../imagem/pintura.gif");
     min-height: 17cm;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
+}
+.efeito1{
+    background: crimson;
+
+}
+.efeito1:hover {
+    animation: bounce 1s;
+    
 }
